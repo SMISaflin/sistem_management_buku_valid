@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: peachpuff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  gap: 30px;
+}
+
+h1 {
+  color: rgb(47, 62, 112);
+  text-transform: capitalize;
+}
+
+.box-input {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: auto;
+  width: 90%;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #2F3E70;
+}
+
+.box-input .pesan-error {
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    margin: 0;
+}
+
+label {
+  color: #2F3E70;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+}
+
+input {
+  background-color: transparent;
+  color: #2F3E70;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+}
+
+.btn-login {
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #2F3E70;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100px;
+  margin: 20px auto;
+  display: block;
+  transition: 0.5s ease;
+}
+
+.btn-login:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.showpassword input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 4px;
+  margin-left: 1px
+}
+
+.register {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: -20px;
+  color: #2F3E70;
+}
+
+.register a {
+  color: #702f2f;
+  transition: 0.3s ease;
+}
+
+.register a:hover {
+  color: blue;
+}
